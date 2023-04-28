@@ -13,12 +13,7 @@ function App() {
                     <DbConfig/>
                 </Sider>
                 <Content>
-                    <Layout>
-                        <Header style={{lineHeight: '50px'}}>header</Header>
-                        <Content style={{height: '100%'}}>
-                            <Editor/>
-                        </Content>
-                    </Layout>
+                    <Editor/>
                 </Content>
             </Layout>
         </div>
